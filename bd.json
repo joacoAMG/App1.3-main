@@ -1,0 +1,19 @@
+{
+  "usuarios": [
+    {
+      "nombre": "joaco",
+      "contrasena": "contrasena",
+      "id": "ac8d"
+    },
+    {
+      "id": "9f79",
+      "nombre": "ugo",
+      "contrasena": "contrasena"
+    },
+    {
+      "id": "85fb",
+      "nombre": "ugo",
+      "contrasena": "contrasena"
+    }
+  ]
+}

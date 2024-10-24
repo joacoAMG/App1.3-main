@@ -1,0 +1,41 @@
+<ion-header [translucent]="true">
+</ion-header>
+
+<ion-content class="login-background">
+  <div class="login-container">
+    <ion-card class="login-card">
+      <ion-card-header>
+        <ion-title class="card-title">Login</ion-title>
+      </ion-card-header>
+      <ion-card-content>
+        <form [formGroup]="formularioLogin">
+          <ion-item>
+            <ion-label position="floating">Nombre</ion-label>
+            <ion-input formControlName="nombre" type="text"></ion-input>
+          </ion-item>
+
+          <ion-item>
+            <ion-label position="floating">Contraseña</ion-label>
+            <ion-input formControlName="password" type="password"></ion-input>
+          </ion-item>
+
+          <ion-button expand="full" color="primary" (click)="ingresar()" class="login-button">
+            Ingresar
+          </ion-button>
+          <ion-button expand="full" color="primary" [routerLink]="['/registro']">Registrarse</ion-button>
+          <ion-button expand="full" color="light" [routerLink]="['/olvidar']">
+            Se me olvidó la contraseña
+          </ion-button>
+        </form>
+      </ion-card-content>
+    </ion-card>
+  </div>
+</ion-content>
+
+<ion-footer>
+  <ion-toolbar color="primary">
+    <ion-buttons slot="end">
+      <ion-button [routerLink]="['/registro']">Registrarse</ion-button>
+    </ion-buttons>
+  </ion-toolbar>
+</ion-footer>

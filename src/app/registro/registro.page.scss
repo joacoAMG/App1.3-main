@@ -1,0 +1,77 @@
+ion-content {
+    --background: linear-gradient(135deg, #6a1b9a, #000000); 
+  }
+  ion-card {
+    margin: 20px;
+    padding: 20px;
+    --box-shadow: 0 4px 8px rgb(255, 255, 255);
+    --border-radius: 12px;
+    --background: #ffffff; 
+  }
+  ion-item {
+    --background: #f9f9f9;
+    --border-radius: 8px;
+    --padding-start: 16px;
+    --padding-end: 16px;
+    margin-bottom: 10px;
+  }
+  ion-button {
+    margin-top: 20px;
+    --background: #000000;
+    --color: #ffffff;
+  }
+  .registro-card {
+    max-width: 400px; 
+    width: 100%;
+    background: #ffffff; 
+    border-radius: 12px; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+    padding: 20px;
+    margin-top: 40px; 
+  }
+  .card-title {
+    font-size: 1.4rem; 
+    text-align: center;
+    color: #ffffff; 
+    font-weight: bold; 
+  }
+  .error-message {
+    color: #d9534f; 
+  }
+  ion-toolbar {
+    --background: #6200ee; 
+  }
+  ion-title {
+    color: #ffffff; 
+  }
+  ion-button[fill="clear"] {
+    --color: #ffffff; 
+  }
+  ion-card {
+    margin: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(255, 255, 255, 0);
+  }
+  ion-card-header {
+    background: linear-gradient(135deg, #7a43b6, #4a90e2);
+    color: #fff;
+  }
+  ion-card-title {
+    font-size: 1.5rem;
+    text-align: center;
+  }
+  ion-item {
+    margin-bottom: 20px;
+  }
+  .error-message {
+    color: red;
+    font-size: 0.875rem;
+    margin-top: -10px;
+    margin-bottom: 20px;
+  }
+  ion-button {
+    --background: #4a90e2;
+    --color: #fff;
+  }
+  
+  

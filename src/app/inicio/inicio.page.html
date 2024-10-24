@@ -1,0 +1,54 @@
+<ion-app>
+  <!-- Menu Lateral -->
+  <ion-menu contentId="main-content" side="start" type="reveal" color="dark">
+    <ion-header>
+      <ion-toolbar color="dark">
+        <ion-title>Inicio</ion-title>
+      </ion-toolbar>
+    </ion-header>
+    <ion-content>
+      <ion-list>
+        <ion-item [routerLink]="['/inicio']">
+          <ion-icon slot="start" name="home-outline" color="primary"></ion-icon>
+          <ion-label>Inicio</ion-label>
+        </ion-item>
+        <ion-item [routerLink]="['/configuracion']">
+          <ion-icon slot="start" name="settings-outline" color="primary"></ion-icon>
+          <ion-label>Configuración</ion-label>
+        </ion-item>
+        <ion-item [routerLink]="['/login']">
+          <ion-icon slot="start" name="person-outline" color="primary"></ion-icon>
+          <ion-label>Cerrar Sesión</ion-label>
+        </ion-item>
+      </ion-list>
+    </ion-content>
+  </ion-menu>
+  <div class="ion-page" id="main-content">
+    <ion-header>
+      <ion-toolbar color="dark">
+        <ion-buttons slot="start">
+          <ion-menu-button></ion-menu-button>
+        </ion-buttons>
+        <ion-title>Home</ion-title>
+      </ion-toolbar>
+    </ion-header>
+    <ion-content class="ion-padding">
+      <ion-card class="welcome-card">
+        <ion-card-header>
+          <div class="welcome-header">
+            <h2>Bienvenido</h2>
+            <ion-card-title>☆{{ nombreUsuario }}☆</ion-card-title>
+          </div>
+        </ion-card-header>
+        <ion-card-content>
+          <p>Estamos encantados de tenerte aquí. Explora las opciones del menú para comenzar.</p>
+        </ion-card-content>
+        <br>
+        <div class="welcome-container">
+          <img src="/assets/Hanamichi2.png" alt="Welcome" class="animated-image">
+        </div>
+      </ion-card>
+        <br>
+
+        
+     

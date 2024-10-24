@@ -1,0 +1,44 @@
+<ion-header>
+  <ion-toolbar color="dark">
+    <ion-buttons slot="start">
+      <ion-button [routerLink]="['/login']" fill="clear">
+        <ion-icon name="arrow-back-outline"></ion-icon>
+        <ion-label>Volver</ion-label>
+      </ion-button>
+    </ion-buttons>
+    <ion-title>Recuperar Contraseña</ion-title>
+  </ion-toolbar>
+</ion-header>
+<ion-content>
+  <div class="container">
+    <div *ngIf="!submitted" class="form-container">
+      <form (ngSubmit)="onSubmit()" #nameForm="ngForm">
+        <ion-item>
+          <ion-label position="floating">Nombre Usuario</ion-label>
+          <ion-input type="text" [(ngModel)]="name" name="name" required></ion-input>
+        </ion-item>
+        <ion-button expand="full" type="submit" [disabled]="nameForm.invalid">Enviar</ion-button>
+      </form>
+      <div class="bienvenido">
+        <img src="/assets/Sad.png" alt="Welcome" class="animated-image zoom-in-out-animation">
+      </div>
+    </div>
+    <div *ngIf="submitted" class="form-container">
+      <ion-card>
+        <ion-card-header>
+          <ion-card-title>Recuperar su contraseña</ion-card-title>
+        </ion-card-header>
+        <ion-card-content>
+          <ion-text>
+            <p>Hola, {{ name }}. Se ha enviado un código de recuperación a tu correo electronico.</p>
+          </ion-text>
+          <ion-button [routerLink]="['/login']" expand="full">Volver al Login</ion-button>
+          <br>
+          <div class="bienvenido">
+            <img src="/assets/Listo.png" alt="Welcome">
+          </div>
+        </ion-card-content>
+      </ion-card>
+    </div>
+  </div>
+</ion-content>
