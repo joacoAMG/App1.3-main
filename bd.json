@@ -6,14 +6,35 @@
       "id": "ac8d"
     },
     {
-      "id": "9f79",
-      "nombre": "ugo",
-      "contrasena": "contrasena"
+      "id": "157c",
+      "nombre": "",
+      "contrasena": ""
     },
     {
-      "id": "85fb",
-      "nombre": "ugo",
-      "contrasena": "contrasena"
+      "id": "17b6",
+      "nombre": "",
+      "contrasena": ""
+    },
+    {
+      "id": "74a1",
+      "nombre": "joacoa",
+      "correo": "jo@gmail.com",
+      "telefono": 123456789,
+      "contrasena": "joaco1234"
+    },
+    {
+      "id": "98b7",
+      "nombre": "joaco1234",
+      "correo": "jo@gmail.com",
+      "telefono": 123412349,
+      "contrasena": "joaco1234"
+    },
+    {
+      "id": "a096",
+      "nombre": "alonso",
+      "correo": "alonso@gmail.com",
+      "telefono": 123456789,
+      "contrasena": "joaco1234"
     }
   ]
 }

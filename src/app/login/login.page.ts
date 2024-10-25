@@ -19,8 +19,8 @@ export class LoginPage implements OnInit {
   isLoading: boolean = false;
   usuarios:any[]=[]
   user={
-    "nombre":"ugo",
-    "contrasena":"contrasena"
+    "nombre":"",
+    "contrasena":""
   }
 
   constructor(
